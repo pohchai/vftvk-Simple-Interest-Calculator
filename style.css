@@ -1,6 +1,6 @@
 body {background-color:black;}
 	h1{color:grey;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana
 	}
 	 
 	.maindiv{
@@ -11,6 +11,4 @@ body {background-color:black;}
 	    border-radius: 25px;
 	    margin: auto;
 	}
-
-
 
