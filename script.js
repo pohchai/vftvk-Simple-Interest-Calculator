@@ -1,6 +1,7 @@
-   function compute() {
+       function compute() {
 	    //Get the values and calculate 
-	    var principal = parseFloat(document.getElementById("principal").value);
+        validateAmount();
+        var principal = parseFloat(document.getElementById("principal").value);
 	    var rate = parseFloat(document.getElementById("rate").value);
 	    var years = parseInt(document.getElementById("years").value);
 	    var interest = principal * years * rate / 100;
@@ -32,4 +33,3 @@
 	
 
 	}
-   
